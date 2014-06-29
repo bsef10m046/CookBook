@@ -1,0 +1,62 @@
+@{Layout="../Shared/_Layout.cshtml";}
+
+<!--<div id="bgSlider"></div>
+<div class="bg_spinner"></div>
+<div class="extra">-->
+  <!--==============================header=================================-->
+  <header>
+    <div class="top-row">
+      <div class="main">
+        <div class="wrapper">
+          <h1><a href="index.html">GoodCook                                        </a></h1>
+           <h2></h2> 
+         <!-- <ul class="pagination">
+            <li class="current"><a href="~/images/bg-img1.jpg">1</a></li>
+            <li><a href="~/images/bg-img2.jpg">2</a></li>
+            <li><a href="~/images/bg-img3.jpg">3</a></li>
+          </ul>
+          <strong class="bg-text">Background:</strong> </div>-->
+      </div>
+    </div>
+    <div class="menu-row">
+      <div class="menu-border">
+        <div class="main">
+          <nav>
+            <ul class="menu">
+              <li><a class="active" href="../Home/main2">Main</a></li>
+            <li><a href="../Recipe/post">Post Recipe</a></li>
+              <li><a href="../Recipe/recipes">Recipes</a></li>
+              <li><a href="../Post/Index">Daily Update</a></li>
+              <li><a href="../Recipe/Search">Search</a></li>
+              <li><a href="../Home/logout">Logout</a></li>
+              <li class="last"><a href="/Home/Account"><b>Account:@Html.Raw(Session["UserName"].ToString())</b></a></li>
+
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--==============================content================================-->
+  
+        <div class="padding-2">
+          <div class="indent-top">
+            <div class="wrapper">
+              <article class="col-3">
+                <h4><strong>Welcome</strong> <em>to Our Site!</em></h4>
+                <strong><p class="color-2 p1"><span style="color:purple">Welcome , Here u can see Recipes ingredients <br>
+                of our page ... Further You will get a new recipe and tip daily that can help You in Your daily life
+                Thank You :)</span></p></strong>
+                
+              </article>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="block"></div>
+    </div>
+  </div>
+</div>
+<!--==============================footer=================================-->
+

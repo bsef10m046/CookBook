@@ -1,0 +1,74 @@
+﻿
+@{Layout="../Shared/_Layout.cshtml";}
+
+<!--<div id="bgSlider"></div>
+<div class="bg_spinner"></div>
+<div class="extra">-->
+  <!--==============================header=================================-->
+  <header>
+    <div class="top-row">
+      <div class="main">
+        <div class="wrapper">
+          <h1><a href="index.html">GoodCook</a></h1>
+         <!-- <ul class="pagination">
+            <li class="current"><a href="~/images/bg-img1.jpg">1</a></li>
+            <li><a href="~/images/bg-img2.jpg">2</a></li>
+            <li><a href="~/images/bg-img3.jpg">3</a></li>
+          </ul>
+          <strong class="bg-text">Background:</strong> </div>-->
+      </div>
+    </div>
+     <div class="menu-row">
+            <div class="menu-border">
+                <div class="main">
+                    <nav>
+                        <ul class="menu">
+                            <li><a class="active" href="../Admin/Index">PostRecipe</a></li>
+                            <!-- <li><a href="courses.html">Post Recipe</a></li>-->
+                            <!--<li><a href="recipes.html">Recipes</a></li>-->
+                            <!--<li><a href="calendar.html">Daily Update</a></li>-->
+                            <!--<li class="last"><a href="../Home/LoginAd">Admin Login</a></li>-->
+                             <li class="last"><a href="../Admin/Add">Add Category</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+  </header>
+  <!--==============================content================================-->
+  
+                
+            <div class="inner">
+    <div class="main">
+      <section id="content">
+        <div class="indent">
+          <div class="wrapper">
+            <article class="col-1">
+              <div class="indent-left">
+                 <form action="../Admin/post"  method="post" >
+                <table width="100%"><tr><td  style="vertical-align:top; padding-top:25px;">
+		<b>@Html.Label("Enter New Category")</b>
+                    <input type="text" name="cat" id="c1" />
+                 <input type="submit" value="Post" >
+                       </form> 
+                  
+                      
+                           
+                  </div>
+                </div>
+              </div>
+              
+                  
+              </div>
+            </article>
+            
+          </div>
+        </div>
+      </section>
+     
+    </div>
+  </div>
+</div>
+<!--==============================footer=================================-->
+

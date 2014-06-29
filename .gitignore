@@ -13,7 +13,7 @@
 x64/
 build/
 bld/
-[Bb]in/
+
 [Oo]bj/
 
 # MSTest test Results
@@ -172,3 +172,5 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+
+![Bb]in/
