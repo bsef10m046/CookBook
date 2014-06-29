@@ -77,7 +77,7 @@ namespace MvcApplication2.Controllers
                 {
 
                     repo.save(s);
-                    return View("main2");
+                    return View("login");
                 }
                 else
                 {
